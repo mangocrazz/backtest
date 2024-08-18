@@ -20,20 +20,16 @@ scikit-learn
 matplotlib
 You can install them via pip:
 
-bash
-复制代码
+
 pip install pandas numpy scikit-learn matplotlib
 Project Structure
-plaintext
-复制代码
-your_project/
 │
-├── main.py              # Entry point of the application
-├── README.md            # Project documentation
+├── main.py              
+├── README.md            
 └── src/
-    ├── data_processing.py  # Data extraction and preprocessing functions
-    ├── backtest.py         # Backtesting framework
-    └── utils.py            # Visualization and utility functions
+    ├── data_processing.py  
+    ├── backtest.py        
+    └── utils.py            
 Usage
 Data Preparation: The data_processing.py module is responsible for loading and preparing data. It ensures that the data is properly formatted and ready for analysis.
 
@@ -43,8 +39,6 @@ Visualization: Use the utils.py module to visualize the results of your backtest
 
 Run the main application by executing:
 
-bash
-复制代码
 python main.py
 Architecture
 The framework is built on a modular architecture, allowing each component to be developed, tested, and refined independently. This design facilitates the extension of the framework to accommodate more complex models, such as non-linear regression, machine learning algorithms, or alternative financial instruments.
